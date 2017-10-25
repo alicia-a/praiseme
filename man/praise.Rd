@@ -10,3 +10,6 @@ praise()
 This function provides me with necessary and appreciated praise.
 Yay praise!
 }
+\examples{
+praise()
+}

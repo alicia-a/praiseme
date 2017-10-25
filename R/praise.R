@@ -4,6 +4,11 @@
 #' Yay praise!
 #'
 #' @export
+#'
+#' @examples
+#' praise()
+
+
 praise <- function() {
   print("You're the best!")
 }
