@@ -12,7 +12,7 @@
 
 
 praise <- function(name = "Alicia") {
-  paste("You're the best, ", name, "!!!!!!!", sep ="" )
+  paste("Did you know, you're the best, ", name, "!!!!!!!", sep ="" )
 }
 
 
