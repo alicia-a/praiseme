@@ -1,7 +1,9 @@
 #' Send Praise
 #'
-#' This function provides me with necessary and appreciated praise.
+#' This function provides the user with necessary and appreciated praise.
 #' Yay praise!
+#'
+#' @param name character, the name of the person you want to praise
 #'
 #' @export
 #'
@@ -9,6 +11,10 @@
 #' praise()
 
 
-praise <- function() {
-  print("You're the best!")
+praise <- function(name = "Alicia") {
+  paste("You're the best, ", name, "!", sep ="" )
 }
+
+
+
+

@@ -4,10 +4,13 @@
 \alias{praise}
 \title{Send Praise}
 \usage{
-praise()
+praise(name = "Alicia")
+}
+\arguments{
+\item{name}{character, the name of the person you want to praise}
 }
 \description{
-This function provides me with necessary and appreciated praise.
+This function provides the user with necessary and appreciated praise.
 Yay praise!
 }
 \examples{
